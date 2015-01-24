@@ -4,7 +4,7 @@ using System.Collections;
 namespace florida.core
 {
 
-		public class GameCore : MonoBehaviour
+		public class GameCore
 		{
 
 				private static GameCore core;

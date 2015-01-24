@@ -12,12 +12,9 @@ namespace florida.controller
 
 				public int step;
 
-				private Vector2 mainCharacterPosition;
-
 				// Use this for initialization
 				void Start ()
 				{
-						GameCore.getInstance ().addScene ("Maze");
 				}
 	
 				// Update is called once per frame

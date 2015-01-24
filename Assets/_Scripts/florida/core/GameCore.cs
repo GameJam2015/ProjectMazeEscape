@@ -9,6 +9,8 @@ namespace florida.core
 
 				private static GameCore core;
 
+				public static int movementsLeft = 30;
+
 				public static GameCore getInstance ()
 				{
 						if (core == null) {
@@ -26,6 +28,12 @@ namespace florida.core
 				{
 						Application.LoadLevelAdditive (sceneName);
 				}
+
+				public void gameOver ()
+				{
+						GameCore.getInstance ().loadScene ("GameOver");
+				}
+
 		}
 
 }

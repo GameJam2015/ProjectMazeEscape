@@ -12,6 +12,8 @@ namespace florida.gui
 				public GameController gameController;
 
 				public Slider slider;
+
+				public Text movementsLeft;
 		
 				public float timePerMovement;
 		
@@ -26,6 +28,7 @@ namespace florida.gui
 								gameController = controllerObject.GetComponent<GameController> ();
 						}
 						gameController.move (action);
+						movementsLeft.text = "Movements left: " + gameController.getMovementsLeft ();
 				}
 
 
@@ -42,6 +45,7 @@ namespace florida.gui
 										gameController = controllerObject.GetComponent<GameController> ();
 								}
 								gameController.move ("NOACTION");
+								movementsLeft.text = "Movements left: " + gameController.getMovementsLeft ();
 						} else {
 								slider.normalizedValue = (timePerMovement - timeElapsed) / timePerMovement;
 						}

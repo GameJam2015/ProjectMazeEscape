@@ -8,7 +8,7 @@ public class CharacterController : MonoBehaviour
 	
 		private Animator anim;
 
-		public int step;
+		public float step;
 	
 		// Use this for initialization
 		void Start ()

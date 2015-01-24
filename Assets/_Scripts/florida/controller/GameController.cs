@@ -30,6 +30,7 @@ namespace florida.controller
 				// Validates y the character can move
 				public void move (string direction)
 				{
+						Debug.Log ("MOVE:" + direction);
 						// anim.SetBool ("Ground", grounded);
 			
 						// Character position
@@ -46,8 +47,12 @@ namespace florida.controller
 						Debug.Log ("DOWN DEBUG:" + downMove);
 
 						CharacterController charController = mainCharacter.GetComponent<CharacterController> ();
-						charController.move (direction);
 
+						if (direction == "NOACTION") {
+							
+						}
+
+						charController.move (direction);
 				}
 		}
 

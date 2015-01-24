@@ -19,7 +19,6 @@ public class CharacterController : MonoBehaviour
 		// Update is called in a fixed time
 		void FixedUpdate ()
 		{
-
 		}
 
 		public void move (string direction)
@@ -52,6 +51,5 @@ public class CharacterController : MonoBehaviour
 		
 				theScale.x *= -1;
 				transform.localScale = theScale;
-		
 		}
 }

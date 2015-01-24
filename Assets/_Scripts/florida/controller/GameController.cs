@@ -10,7 +10,12 @@ namespace florida.controller
 
 				public GameObject mainCharacter;
 
-				public int step;
+				// The wall layer
+				public LayerMask whatIsWall;
+		
+				// Movement available options
+				private bool leftMove, rightMove, upMove, downMove;
+				public Vector2 leftVector, rightVector, upVector, downVector;
 
 				// Use this for initialization
 				void Start ()
@@ -20,27 +25,29 @@ namespace florida.controller
 				// Update is called once per frame
 				void Update ()
 				{
-	
 				}
 
+				// Validates y the character can move
 				public void move (string direction)
 				{
-						Vector3 destination = new Vector3 (mainCharacter.transform.position.x, mainCharacter.transform.position.y, mainCharacter.transform.position.z);
-						switch (direction) {
-						case "UP":
-								destination.y += step;
-								break;
-						case "DOWN": 
-								destination.y -= step;
-								break;
-						case "RIGHT":
-								destination.x += step;
-								break;
-						case "LEFT":
-								destination.x -= step;
-								break;
-						}
-						mainCharacter.transform.position = destination;
+						// anim.SetBool ("Ground", grounded);
+			
+						// Character position
+						Vector2 characterPosition = new Vector2 (mainCharacter.transform.position.x, mainCharacter.transform.position.y);
+						// Detect Walls collider
+						bool leftMove = Physics2D.Linecast (characterPosition, characterPosition + leftVector, whatIsWall);
+						bool rightMove = Physics2D.Linecast (characterPosition, characterPosition + rightVector, whatIsWall);
+						bool upMove = Physics2D.Linecast (characterPosition, characterPosition + upVector, whatIsWall);
+						bool downMove = Physics2D.Linecast (characterPosition, characterPosition + downVector, whatIsWall);
+			
+						Debug.Log ("LEFT DEBUG:" + leftMove);
+						Debug.Log ("RIGHT DEBUG:" + rightMove);
+						Debug.Log ("UP DEBUG:" + upMove);
+						Debug.Log ("DOWN DEBUG:" + downMove);
+
+						CharacterController charController = mainCharacter.GetComponent<CharacterController> ();
+						charController.move (direction);
+
 				}
 		}
 

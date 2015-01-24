@@ -7,14 +7,8 @@ public class CharacterController : MonoBehaviour
 		private bool facingRight = true;
 	
 		private Animator anim;
-	
-		// The wall layer
-		public LayerMask whatIsWall;
 
-		// Movement available options
-		private bool leftMove, rightMove, upMove, downMove;
-		public Vector2 leftVector, rightVector, upVector, downVector;
-
+		public int step;
 	
 		// Use this for initialization
 		void Start ()
@@ -25,22 +19,29 @@ public class CharacterController : MonoBehaviour
 		// Update is called in a fixed time
 		void FixedUpdate ()
 		{
-				// anim.SetBool ("Ground", grounded);
 
-				// Character position
-				Vector2 characterPosition = new Vector2 (gameObject.transform.position.x, gameObject.transform.position.y);
-				// Detect Walls collider
-				leftMove = Physics2D.Linecast (characterPosition, characterPosition + leftVector, whatIsWall);
-				rightMove = Physics2D.Linecast (characterPosition, characterPosition + rightVector, whatIsWall);
-				upMove = Physics2D.Linecast (characterPosition, characterPosition + upVector, whatIsWall);
-				downMove = Physics2D.Linecast (characterPosition, characterPosition + downVector, whatIsWall);				
 		}
-	
 
-		void Update ()
+		public void move (string direction)
 		{
-
+				Vector3 destination = new Vector3 (transform.position.x, transform.position.y, transform.position.z);
+				switch (direction) {
+				case "UP":
+						destination.y += step;
+						break;
+				case "DOWN": 
+						destination.y -= step;
+						break;
+				case "RIGHT":
+						destination.x += step;
+						break;
+				case "LEFT":
+						destination.x -= step;
+						break;
+				}
+				transform.position = destination;
 		}
+
 	
 		// It will negatively scale horizontally
 		// It will save time to duplicate the animations right and left

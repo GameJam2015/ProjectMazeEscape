@@ -11,17 +11,6 @@ namespace florida.gui
 
 				public GameController gameController;
 
-				// Use this for initialization
-				void Start ()
-				{
-				}
-	
-				// Update is called once per frame
-				void Update ()
-				{
-	
-				}
-
 				public void actionSelected (string action)
 				{
 						Debug.Log ("actionSelected: " + action);
@@ -32,6 +21,11 @@ namespace florida.gui
 						gameController.move (action);
 				}
 
+
+				void Update ()
+				{
+
+				}
 
 		}
 

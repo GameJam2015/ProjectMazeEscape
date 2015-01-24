@@ -1,0 +1,465 @@
+fileFormatVersion: 2
+guid: 9be70221ed4fc4704aa9669592ac0402
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Braid_0
+    21300002: Braid_1
+    21300004: Braid_2
+    21300006: Braid_3
+    21300008: Braid_4
+    21300010: Braid_5
+    21300012: Braid_6
+    21300014: Braid_7
+    21300016: Braid_8
+    21300018: Braid_9
+    21300020: Braid_10
+    21300022: Braid_11
+    21300024: Braid_12
+    21300026: Braid_13
+    21300028: Braid_14
+    21300030: Braid_15
+    21300032: Braid_16
+    21300034: Braid_17
+    21300036: Braid_18
+    21300038: Braid_19
+    21300040: Braid_20
+    21300042: Braid_21
+    21300044: Braid_22
+    21300046: Braid_23
+    21300048: Braid_24
+    21300050: Braid_25
+    21300052: Braid_26
+    21300054: Braid_27
+    21300056: Braid_28
+    21300058: Braid_29
+    21300060: Braid_30
+    21300062: Braid_31
+    21300064: Braid_32
+    21300066: Braid_33
+    21300068: Braid_34
+    21300070: Braid_35
+    21300072: Braid_36
+    21300074: Braid_37
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: 1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Braid_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 884
+        width: 166
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Braid_1
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 884
+        width: 81
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Braid_2
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 884
+        width: 81
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Braid_3
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 884
+        width: 84
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Braid_4
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 884
+        width: 164
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Braid_5
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 884
+        width: 81
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Braid_6
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 883
+        width: 81
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Braid_7
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 883
+        width: 81
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Braid_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 740
+        width: 83
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Braid_9
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 743
+        width: 164
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Braid_10
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 743
+        width: 81
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Braid_11
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 743
+        width: 249
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Braid_12
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 752
+        width: 119
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Braid_13
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 608
+        width: 118
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Braid_14
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 608
+        width: 234
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Braid_15
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 606
+        width: 107
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Braid_16
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 607
+        width: 104
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Braid_17
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 608
+        width: 104
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Braid_18
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 606
+        width: 100
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Braid_19
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 606
+        width: 96
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Braid_20
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 604
+        width: 97
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Braid_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 468
+        width: 97
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Braid_22
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 470
+        width: 99
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Braid_23
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 468
+        width: 104
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Braid_24
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 472
+        width: 107
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Braid_25
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 476
+        width: 116
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Braid_26
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 476
+        width: 120
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Braid_27
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 475
+        width: 112
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Braid_28
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 474
+        width: 102
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Braid_29
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 472
+        width: 103
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Braid_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 336
+        width: 106
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Braid_31
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 335
+        width: 98
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Braid_32
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 332
+        width: 94
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Braid_33
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 332
+        width: 98
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Braid_34
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 332
+        width: 104
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Braid_35
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 332
+        width: 108
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Braid_36
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 332
+        width: 111
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Braid_37
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 332
+        width: 112
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

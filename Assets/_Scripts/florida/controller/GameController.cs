@@ -15,19 +15,11 @@ namespace florida.controller
 		
 				// Movement available options
 				private bool leftMove, rightMove, upMove, downMove;
-				public Vector2 leftVector, rightVector, upVector, downVector;
+
+				public int collisionMargin;
+				//public Vector2 leftVector, rightVector, upVector, downVector;
 
 				public int movementsLeft;
-            
-				// Use this for initialization
-				void Start ()
-				{
-				}
-	
-				// Update is called once per frame
-				void Update ()
-				{
-				}
 
 				// Validates y the character can move
 				public void move (string direction)
@@ -39,10 +31,10 @@ namespace florida.controller
 						Vector2 characterPosition = new Vector2 (mainCharacter.transform.position.x, mainCharacter.transform.position.y);
 
 						// Detect Walls collider
-						bool leftMove = !Physics2D.Linecast (characterPosition, characterPosition + leftVector, whatIsWall);
-						bool rightMove = !Physics2D.Linecast (characterPosition, characterPosition + rightVector, whatIsWall);
-						bool upMove = !Physics2D.Linecast (characterPosition, characterPosition + upVector, whatIsWall);
-						bool downMove = !Physics2D.Linecast (characterPosition, characterPosition + downVector, whatIsWall);
+						bool leftMove = !Physics2D.Linecast (characterPosition, characterPosition + new Vector2 (-collisionMargin, 0), whatIsWall);
+						bool rightMove = !Physics2D.Linecast (characterPosition, characterPosition + new Vector2 (collisionMargin, 0), whatIsWall);
+						bool upMove = !Physics2D.Linecast (characterPosition, characterPosition + new Vector2 (0, collisionMargin), whatIsWall);
+						bool downMove = !Physics2D.Linecast (characterPosition, characterPosition + new Vector2 (0, -collisionMargin), whatIsWall);
 
 						CharacterController charController = mainCharacter.GetComponent<CharacterController> ();
 

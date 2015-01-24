@@ -15,11 +15,6 @@ public class CharacterController : MonoBehaviour
 		{
 				anim = GetComponent<Animator> ();
 		}
-	
-		// Update is called in a fixed time
-		void FixedUpdate ()
-		{
-		}
 
 		public void move (string direction)
 		{
@@ -39,6 +34,12 @@ public class CharacterController : MonoBehaviour
 						break;
 				}
 				transform.position = destination;
+
+				if (facingRight && direction == "LEFT") {
+						Flip ();
+				} else if (!facingRight && direction == "RIGHT") {
+						Flip ();
+				}
 		}
 
 	

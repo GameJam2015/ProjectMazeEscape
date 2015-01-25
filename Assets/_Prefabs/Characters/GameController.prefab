@@ -39,7 +39,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a8401263a9b3b419cb830f24379f0f8d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mainCharacter: {fileID: 0}
+  mainCharacter: {fileID: 100004, guid: 8caca952cba97467ba47f05a7b2b6d01, type: 2}
   whatIsWall:
     serializedVersion: 2
     m_Bits: 4294967039

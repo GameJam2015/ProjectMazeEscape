@@ -8,12 +8,12 @@ namespace florida.controller
     {
         public float timePerMovement;
 		
-        private float timeElapsed;
+        public string mazeName;
 
         // Use this for initialization
         void Start()
         {
-            GameCore.getInstance().addScene("PrisionFree");
+            GameCore.getInstance().addScene(mazeName);
         }
 
     }

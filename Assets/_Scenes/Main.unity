@@ -509,7 +509,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 9977c09a9d1fc4c0da5f12444937024f, type: 2}
       propertyPath: m_Text
-      value: 'Movements left: 80'
+      value: 'Movements left:'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9977c09a9d1fc4c0da5f12444937024f, type: 2}
@@ -614,6 +614,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timePerMovement: 2
+  mazeName: DeadLock
 --- !u!4 &356374549
 Transform:
   m_ObjectHideFlags: 0
@@ -2783,7 +2784,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Movements left: 80'
+  m_Text: 'Movements left:'
 --- !u!222 &1984160261
 CanvasRenderer:
   m_ObjectHideFlags: 0

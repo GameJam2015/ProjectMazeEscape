@@ -24,7 +24,7 @@ namespace florida.controller
         // Validates y the character can move
         public void move(string direction)
         {
-            Debug.Log("MOVE:" + direction);
+            // Debug.Log("MOVE:" + direction);
             // anim.SetBool ("Ground", grounded);
 			
             // Character position
@@ -85,6 +85,7 @@ namespace florida.controller
 
         public void addMovementsLeft(int num)
         {
+            Debug.Log("Adding more movements");
             movementsLeft += num;
         }
 

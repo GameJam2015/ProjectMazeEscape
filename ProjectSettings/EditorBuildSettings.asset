@@ -10,8 +10,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Scenes/Maze.unity
   - enabled: 1
+    path: Assets/_Scenes/PrisionFree.unity
+  - enabled: 1
+    path: Assets/_Scenes/DeadLock.unity
+  - enabled: 1
     path: Assets/_Scenes/GameOver.unity
   - enabled: 1
     path: Assets/_Scenes/Win.unity
-  - enabled: 1
-    path: Assets/_Scenes/PrisionFree.unity

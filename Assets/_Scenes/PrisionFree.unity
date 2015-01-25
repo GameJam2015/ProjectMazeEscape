@@ -10467,7 +10467,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967039
   collisionMargin: 2
-  movementsLeft: 100
+  movementsLeft: 80
 --- !u!4 &1870119130
 Transform:
   m_ObjectHideFlags: 0
@@ -10725,6 +10725,10 @@ Prefab:
       propertyPath: mainCharacter
       value: 
       objectReference: {fileID: 1778697329}
+    - target: {fileID: 11400000, guid: 394bf8a35b9074121a955230851d991b, type: 2}
+      propertyPath: movementsLeft
+      value: 80
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 394bf8a35b9074121a955230851d991b, type: 2}
   m_RootGameObject: {fileID: 1870119128}

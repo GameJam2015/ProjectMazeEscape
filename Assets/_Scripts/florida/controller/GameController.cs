@@ -85,7 +85,6 @@ namespace florida.controller
 
         public void addMovementsLeft(int num)
         {
-            Debug.Log("Adding more movements");
             movementsLeft += num;
         }
 

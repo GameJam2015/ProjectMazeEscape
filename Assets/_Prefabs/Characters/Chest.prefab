@@ -133,7 +133,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movementsToAdd: 10
-  gameController: {fileID: 11400000, guid: 394bf8a35b9074121a955230851d991b, type: 2}
+  gameController: {fileID: 0}
   groundRadius: 1
   whatIsPlayer:
     serializedVersion: 2

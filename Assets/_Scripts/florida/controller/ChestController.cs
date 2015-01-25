@@ -9,19 +9,13 @@ public class ChestController : MonoBehaviour
 
     public GameController gameController;
 
-
-    void OnCollisionEnter2D(Collision2D coll)
-    {
-        Debug.Log("CHEST - OnCollisionEnter2D");
-        if (coll.gameObject.tag == "Player")
-        {
-            gameController.addMovementsLeft(movementsToAdd);
-        }
-    }
-
     void OnTriggerEnter2D(Collider2D other)
     {
         Debug.Log("CHEST - OnCollisionEnter2D");
+        if (other.gameObject.tag == "Player")
+        {
+            gameController.addMovementsLeft(movementsToAdd);
+        }
     }
 
 

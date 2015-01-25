@@ -57,8 +57,4 @@ public class CharacterController : MonoBehaviour
         transform.localScale = theScale;
     }
 
-    void OnTriggerEnter2D(Collider2D other)
-    {
-        Debug.Log("CHEST - OnCollisionEnter2D");
-    }
 }

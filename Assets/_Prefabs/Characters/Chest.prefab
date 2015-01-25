@@ -8,7 +8,6 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 400000}
-  - 61: {fileID: 6100000}
   - 114: {fileID: 11400000}
   m_Layer: 0
   m_Name: Chest
@@ -56,8 +55,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 38.7999992, y: -8.18999958, z: -1}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 7.46999979, y: 25.7299995, z: -1}
+  m_LocalScale: {x: .600000024, y: .600000024, z: 1}
   m_Children:
   - {fileID: 400002}
   - {fileID: 400004}
@@ -87,17 +86,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 400000}
   m_RootOrder: 1
---- !u!61 &6100000
-BoxCollider2D:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100000}
-  m_Enabled: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Size: {x: 12.4553204, y: 3.60348797}
-  m_Center: {x: -4.21763992, y: .104140282}
 --- !u!108 &10800000
 Light:
   m_ObjectHideFlags: 1
@@ -107,9 +95,9 @@ Light:
   m_Enabled: 1
   serializedVersion: 3
   m_Type: 2
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: .338235319, b: .338235319, a: 1}
   m_Intensity: 1
-  m_Range: 5
+  m_Range: 2.67000008
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
@@ -146,6 +134,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   movementsToAdd: 10
   gameController: {fileID: 0}
+  groundRadius: 1
+  whatIsPlayer:
+    serializedVersion: 2
+    m_Bits: 256
 --- !u!212 &21200000
 SpriteRenderer:
   m_ObjectHideFlags: 1

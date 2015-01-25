@@ -9,14 +9,20 @@ public class ChestController : MonoBehaviour
 
     public GameController gameController;
 
-    void OnTriggerEnter2D(Collider2D other)
+    public float groundRadius;
+    
+    public LayerMask whatIsPlayer; 
+    
+    // Update is called once per frame
+    void Update()
     {
-        Debug.Log("CHEST - OnCollisionEnter2D");
-        if (other.gameObject.tag == "Player")
+        Vector2 gameObjectLocation = new Vector2(gameObject.transform.position.x, gameObject.transform.position.y);
+        bool isPlayerClose = Physics2D.OverlapCircle(gameObjectLocation, groundRadius, whatIsPlayer);
+        if (isPlayerClose)
         {
             gameController.addMovementsLeft(movementsToAdd);
+            Destroy(gameObject);
         }
     }
-
 
 }

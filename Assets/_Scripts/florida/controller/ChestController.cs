@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using florida.controller;
+using florida.gui;
 
 public class ChestController : MonoBehaviour
 {
@@ -21,6 +22,11 @@ public class ChestController : MonoBehaviour
         if (isPlayerClose)
         {
             gameController.addMovementsLeft(movementsToAdd);
+            GameObject controllerObject = GameObject.FindGameObjectWithTag("UIController");
+            UIController uicontroller = controllerObject.GetComponent<UIController>();
+
+            uicontroller.updateMovementsLeftText();
+
             Destroy(gameObject);
         }
     }

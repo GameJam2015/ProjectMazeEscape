@@ -593,8 +593,8 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 356374549}
-  - 114: {fileID: 356374548}
   - 82: {fileID: 356374550}
+  - 114: {fileID: 356374548}
   m_Layer: 0
   m_Name: StartupController
   m_TagString: Untagged
@@ -1041,7 +1041,7 @@ GameObject:
   - 114: {fileID: 499495262}
   m_Layer: 0
   m_Name: UIController
-  m_TagString: Untagged
+  m_TagString: UIController
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
